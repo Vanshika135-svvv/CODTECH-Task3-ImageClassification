@@ -32,3 +32,6 @@ The model is trained on the **Fashion MNIST** dataset, which consists of 70,000 
 * **Feature Extraction:** Utilized multiple `Conv2D` and `MaxPooling2D` layers to identify edges, shapes, and textures.
 * **Overfitting Prevention:** Intentionally integrated a `Dropout(0.5)` layer before the final dense layers to force the network to generalize, ensuring a highly robust, realistic performance rather than an overfitted 100% accuracy.
 * **Evaluation:** Plotted training vs. validation accuracy/loss curves to visually validate the model's generalization capabilities.
+
+## Output
+<img width="1189" height="490" alt="Image" src="https://github.com/user-attachments/assets/bccfcdfe-4613-403c-b311-42b1e2166dea" />
